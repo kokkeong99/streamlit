@@ -1,2 +1,2 @@
 streamlit==1.17.0
-pickle
+pickleshare==0.7.5
