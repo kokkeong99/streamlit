@@ -163,9 +163,9 @@ def main():
         
         #Display the output
         if result == 'Pass':
-          st.success('Prediction result for this course is {} (Performance Accuracy: 93.24%)'.format(result))
+          st.success('Prediction result for this course is {} (Performance Accuracy: 94.24%)'.format(result))
         elif result == 'at-Risk':
-          st.error('Prediction result for this course is {} (Grade = C-, D+, D or F) Performance Accuracy: 93.24%'.format(result))
+          st.error('Prediction result for this course is {} (Grade = C-, D+, D or F) Performance Accuracy: 94.24%'.format(result))
      
 if __name__=='__main__': 
     main()
